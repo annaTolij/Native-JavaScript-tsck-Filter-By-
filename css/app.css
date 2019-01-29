@@ -1,0 +1,89 @@
+body {
+    background-color: #fafafa;
+    color: #757575;
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+main {
+    background: #fff;
+    width: 700px;
+    margin: 70px auto;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    color: white;
+    background-color: #f0db4f;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header h1 {
+    display: inline-block;
+    color: #323330;
+    margin: 1rem auto;
+}
+
+form { 
+    background-color: #FAFAFA;
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding: 10px;
+}
+
+input {
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #757575;
+    padding: .5em;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    outline: none;
+    transition: all .2s;
+}
+
+input:focus {
+    border: 1px solid #f0db4f;
+}
+
+.checkbox {
+    margin-left: 1.5rem;
+}
+
+button {
+    background: 0 0;
+    border: none;
+    color: #757575;
+    height: 36px;
+    min-width: 64px;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0 16px;
+    display: inline-block;
+    font-family: "Consolas","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+}
+
+#output-list {
+    font-size: 1rem;
+    border-top: 1px solid rgba(0,0,0,.1);
+    background-color: #fff;
+    padding: 0.5em;
+    padding-left: 2em;
+    align-items: center;
+    max-height: 40em;
+    overflow-y: auto;
+    list-style-type: decimal;
+    list-style-type: red;
+}
